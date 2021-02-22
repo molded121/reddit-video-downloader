@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ https://gabed.net/iloader/reddit-video-downloader [L]
